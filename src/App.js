@@ -85,7 +85,7 @@ class App extends Component {
         for (let i = 0; i < dataset.datasets.length; i++) {
           if (sum > 0) {
             dataset.datasets[i].data[j] = _.floor(
-              // dataset.datasets[i].data[j] = _.round(
+              //// dataset.datasets[i].data[j] = _.round(
               (dataset.datasets[i].data[j] / sum) * 100,
               1
             );
